@@ -1,0 +1,7 @@
+# Metodo Bespoke Studio — MAI online (prove, scout, reference, dossier)
+_gates/
+# Foto originali a piena risoluzione — solo i derivati in img/ vanno online
+img/source/
+# Sistema
+.DS_Store
+Thumbs.db
