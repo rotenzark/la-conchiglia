@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
 <title>La Conchiglia — Trattoria e pizzeria di San Siro · Via Novara 64, Milano</title>
 <meta name="description" content="La Conchiglia, trattoria e pizzeria di San Siro in Via Novara 64 a Milano: pesce, pizza e griglia con porzioni giganti, a due passi dal Meazza. Aperti 7 giorni su 7 fino a mezzanotte. Prenota: 02 3946 4148.">
 <link rel="canonical" href="https://rotenzark.github.io/la-conchiglia/">
@@ -15,9 +16,7 @@
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1">
 <script type="application/ld+json">
 {
@@ -29,25 +28,99 @@
       "image": "https://rotenzark.github.io/la-conchiglia/img/og-image.jpg",
       "url": "https://rotenzark.github.io/la-conchiglia/",
       "telephone": "+390239464148",
-      "servesCuisine": ["Italiana", "Pesce", "Pizza"],
+      "servesCuisine": [
+        "Italiana",
+        "Pesce",
+        "Pizza"
+      ],
       "priceRange": "€€",
       "description": "Trattoria e pizzeria di San Siro: pesce, pizza e griglia con porzioni generose, a due passi dal Meazza.",
-      "address": { "@type": "PostalAddress", "streetAddress": "Via Novara 64", "addressLocality": "Milano", "postalCode": "20147", "addressCountry": "IT" },
-      "geo": { "@type": "GeoCoordinates", "latitude": 45.4709017, "longitude": 9.1228384 },
-      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.0", "reviewCount": "1927", "bestRating": "5" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via Novara 64",
+        "addressLocality": "Milano",
+        "postalCode": "20147",
+        "addressCountry": "IT"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 45.4709017,
+        "longitude": 9.1228384
+      },
       "openingHoursSpecification": [
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "11:00", "closes": "15:00" },
-        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "18:00", "closes": "00:00" }
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "11:00",
+          "closes": "15:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "18:00",
+          "closes": "00:00"
+        }
       ]
     },
     {
       "@type": "FAQPage",
       "mainEntity": [
-        { "@type": "Question", "name": "Che cucina fate?", "acceptedAnswer": { "@type": "Answer", "text": "Tre anime in un solo posto: pesce (spaghetti allo scoglio, fritto misto), pizza cotta nel forno e carne alla griglia (fiorentina, costata), con porzioni generose." } },
-        { "@type": "Question", "name": "Che orari fate?", "acceptedAnswer": { "@type": "Answer", "text": "Aperti tutti i giorni, pranzo 11–15 e cena 18–24 (fino a mezzanotte)." } },
-        { "@type": "Question", "name": "Fate asporto e consegna a domicilio?", "acceptedAnswer": { "@type": "Answer", "text": "Sì: oltre alla consumazione sul posto, facciamo asporto e consegna a domicilio. Chiama lo 02 3946 4148." } },
-        { "@type": "Question", "name": "Si prenota?", "acceptedAnswer": { "@type": "Answer", "text": "Sì, soprattutto nelle sere di partita al Meazza consigliamo di chiamare per prenotare un tavolo." } },
-        { "@type": "Question", "name": "Dove siete?", "acceptedAnswer": { "@type": "Answer", "text": "In Via Novara 64 a Milano, zona San Siro, a due passi dallo stadio Meazza." } }
+        {
+          "@type": "Question",
+          "name": "Che cucina fate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tre anime in un solo posto: pesce (spaghetti allo scoglio, fritto misto), pizza cotta nel forno e carne alla griglia (fiorentina, costata), con porzioni generose."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Che orari fate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aperti tutti i giorni, pranzo 11–15 e cena 18–24 (fino a mezzanotte)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Fate asporto e consegna a domicilio?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì: oltre alla consumazione sul posto, facciamo asporto e consegna a domicilio. Chiama lo 02 3946 4148."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Si prenota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sì, soprattutto nelle sere di partita al Meazza consigliamo di chiamare per prenotare un tavolo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dove siete?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Via Novara 64 a Milano, zona San Siro, a due passi dallo stadio Meazza."
+          }
+        }
       ]
     }
   ]
@@ -206,7 +279,7 @@
     </div>
     <div class="dove-media">
       <div class="mappa reveal">
-        <iframe title="Mappa: La Conchiglia, Via Novara 64, Milano" src="https://www.google.com/maps?q=La+Conchiglia,+Via+Novara+64,+20147+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 320px"><template><iframe title="Mappa: La Conchiglia, Via Novara 64, Milano" src="https://www.google.com/maps?q=La+Conchiglia,+Via+Novara+64,+20147+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/place/La+Conchiglia/@45.4709017,9.1228384,17z" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
     </div>
   </section>
@@ -229,6 +302,7 @@
   <p class="foot-brand"><span class="brand-shell" aria-hidden="true"><svg viewBox="0 0 64 64"><g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M32 52 C14 41 12 21 32 13 C52 21 50 41 32 52 Z"/><path d="M32 52 L32 15"/><path d="M32 50 C25 41 23 26 30 16"/><path d="M32 50 C39 41 41 26 34 16"/></g></svg></span> La Conchiglia</p>
   <p data-i18n="foot.dove">Via Novara 64, 20147 Milano · <a href="tel:+390239464148">02 3946 4148</a></p>
   <p class="foot-demo" data-i18n="foot.demo">Sito dimostrativo (concept) realizzato da Bespoke Studio con dati e foto pubblici — non è il sito ufficiale dell'attività.</p>
+  <p class="privacy-link"><a href="privacy.html">Privacy</a></p>
 </footer>
 
 <div class="actionbar" id="actionBar">
@@ -245,5 +319,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <script src="js/main.js?v=3" defer></script>
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
